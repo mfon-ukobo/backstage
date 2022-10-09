@@ -30,7 +30,7 @@
   ],
   "configSchema": "config.d.ts",
   "scripts": {
-    "build": "backstage-cli package build",
+    "build": "node init && backstage-cli package build",
     "lint": "backstage-cli package lint",
     "test": "backstage-cli package test",
     "prepack": "backstage-cli package prepack",
