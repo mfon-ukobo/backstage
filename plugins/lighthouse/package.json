@@ -24,13 +24,13 @@
     "lighthouse"
   ],
   "scripts": {
-    "build": "backstage-cli package build",
+    "build": "node init && backstage-cli package build",
     "lint": "backstage-cli package lint",
     "test": "backstage-cli package test",
     "clean": "backstage-cli package clean",
     "prepack": "backstage-cli package prepack",
     "postpack": "backstage-cli package postpack",
-    "start": "backstage-cli package start"
+    "start": "node init && backstage-cli package start"
   },
   "dependencies": {
     "@backstage/catalog-model": "workspace:^",
