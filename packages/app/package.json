@@ -1,6 +1,6 @@
 {
   "name": "example-app",
-  "version": "0.2.76-next.1",
+  "version": "0.2.76-next.2",
   "private": true,
   "backstage": {
     "role": "frontend"
@@ -99,8 +99,8 @@
     "start-server-and-test": "^1.10.11"
   },
   "scripts": {
-    "start": "backstage-cli package start",
-    "build": "backstage-cli package build",
+    "start": "node init && backstage-cli package start",
+    "build": "node init && backstage-cli package build",
     "clean": "backstage-cli package clean",
     "test": "backstage-cli package test",
     "lint": "backstage-cli package lint",

@@ -1,7 +1,7 @@
 {
   "name": "@backstage/test-utils",
   "description": "Utilities to test Backstage plugins and apps.",
-  "version": "1.2.1-next.1",
+  "version": "1.2.1-next.2",
   "publishConfig": {
     "access": "public",
     "main": "dist/index.esm.js",
@@ -23,13 +23,13 @@
   "main": "src/index.ts",
   "types": "src/index.ts",
   "scripts": {
-    "build": "backstage-cli package build",
+    "build": "node init && backstage-cli package build",
     "lint": "backstage-cli package lint",
     "test": "backstage-cli package test",
     "prepack": "backstage-cli package prepack",
     "postpack": "backstage-cli package postpack",
     "clean": "backstage-cli package clean",
-    "start": "backstage-cli package start"
+    "start": "node init && backstage-cli package start"
   },
   "dependencies": {
     "@backstage/config": "workspace:^",

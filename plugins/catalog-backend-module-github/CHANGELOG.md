@@ -1,5 +1,22 @@
 # @backstage/plugin-catalog-backend-module-github
 
+## 0.1.8-next.2
+
+### Patch Changes
+
+- 7edb5909e8: Add missing config schema for the `GitHubEntityProvider`.
+- Updated dependencies
+  - @backstage/backend-tasks@0.3.6-next.2
+  - @backstage/backend-common@0.15.2-next.2
+  - @backstage/plugin-catalog-backend@1.4.1-next.2
+  - @backstage/backend-plugin-api@0.1.3-next.2
+  - @backstage/plugin-catalog-node@1.1.1-next.2
+  - @backstage/catalog-model@1.1.2-next.2
+  - @backstage/config@1.0.3-next.2
+  - @backstage/errors@1.1.2-next.2
+  - @backstage/integration@1.3.2-next.2
+  - @backstage/types@1.0.0
+
 ## 0.1.8-next.1
 
 ### Patch Changes
