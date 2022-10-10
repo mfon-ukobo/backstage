@@ -1,5 +1,13 @@
 # @backstage/plugin-catalog-common
 
+## 1.0.7-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-permission-common@0.6.5-next.2
+  - @backstage/plugin-search-common@1.1.0-next.2
+
 ## 1.0.7-next.1
 
 ### Patch Changes
