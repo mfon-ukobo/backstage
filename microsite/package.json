@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "examples": "docusaurus-examples",
-    "start": "docusaurus-start",
-    "build": "docusaurus-build",
+    "start": "node init && docusaurus-start",
+    "build": "node init && docusaurus-build",
     "prettier:check": "prettier --check .",
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",

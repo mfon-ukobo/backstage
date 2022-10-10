@@ -1,6 +1,6 @@
 {
   "name": "techdocs-cli-embedded-app",
-  "version": "0.2.75-next.1",
+  "version": "0.2.75-next.2",
   "private": true,
   "backstage": {
     "role": "frontend"
@@ -42,8 +42,8 @@
     "start-server-and-test": "^1.10.11"
   },
   "scripts": {
-    "start": "backstage-cli package start --config ./app-config.yaml",
-    "build": "backstage-cli package build --config ./app-config.yaml",
+    "start": "node init && backstage-cli package start --config ./app-config.yaml",
+    "build": "node init && backstage-cli package build --config ./app-config.yaml",
     "clean": "backstage-cli package clean",
     "test": "backstage-cli package test",
     "lint": "backstage-cli package lint",

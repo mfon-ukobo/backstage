@@ -1,7 +1,7 @@
 {
   "name": "@techdocs/cli",
   "description": "Utility CLI for managing TechDocs sites in Backstage.",
-  "version": "1.2.2-next.1",
+  "version": "1.2.2-next.2",
   "publishConfig": {
     "access": "public"
   },
@@ -22,8 +22,8 @@
   "main": "dist/index.cjs.js",
   "types": "",
   "scripts": {
-    "start": "nodemon --",
-    "build": "backstage-cli package build",
+    "start": "node init && nodemon --",
+    "build": "node init && backstage-cli package build",
     "clean": "backstage-cli package clean",
     "lint": "backstage-cli package lint",
     "test": "backstage-cli package test",

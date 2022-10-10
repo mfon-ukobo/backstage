@@ -1,7 +1,7 @@
 {
   "name": "@backstage/cli",
   "description": "CLI for developing Backstage plugins and apps",
-  "version": "0.20.0-next.1",
+  "version": "0.20.0-next.2",
   "publishConfig": {
     "access": "public"
   },
@@ -20,11 +20,11 @@
   "license": "Apache-2.0",
   "main": "dist/index.cjs.js",
   "scripts": {
-    "build": "backstage-cli package build",
+    "build": "node init && backstage-cli package build",
     "lint": "backstage-cli package lint",
     "test": "backstage-cli package test",
     "clean": "backstage-cli package clean",
-    "start": "nodemon --"
+    "start": "node init && nodemon --"
   },
   "bin": {
     "backstage-cli": "bin/backstage-cli"

@@ -1,5 +1,21 @@
 # @backstage/plugin-search-backend
 
+## 1.1.0-next.2
+
+### Patch Changes
+
+- 2d3a5f09ab: Use `response.json` rather than `response.send` where appropriate, as outlined in `SECURITY.md`
+- Updated dependencies
+  - @backstage/backend-common@0.15.2-next.2
+  - @backstage/plugin-search-backend-node@1.0.3-next.2
+  - @backstage/plugin-auth-node@0.2.6-next.2
+  - @backstage/plugin-permission-node@0.6.6-next.2
+  - @backstage/config@1.0.3-next.2
+  - @backstage/errors@1.1.2-next.2
+  - @backstage/types@1.0.0
+  - @backstage/plugin-permission-common@0.6.5-next.2
+  - @backstage/plugin-search-common@1.1.0-next.2
+
 ## 1.1.0-next.1
 
 ### Minor Changes

@@ -1,5 +1,26 @@
 # @backstage/plugin-catalog-backend
 
+## 1.4.1-next.2
+
+### Patch Changes
+
+- 2d3a5f09ab: Use `response.json` rather than `response.send` where appropriate, as outlined in `SECURITY.md`
+- Updated dependencies
+  - @backstage/backend-common@0.15.2-next.2
+  - @backstage/backend-plugin-api@0.1.3-next.2
+  - @backstage/plugin-catalog-node@1.1.1-next.2
+  - @backstage/plugin-permission-node@0.6.6-next.2
+  - @backstage/catalog-client@1.1.1-next.2
+  - @backstage/catalog-model@1.1.2-next.2
+  - @backstage/config@1.0.3-next.2
+  - @backstage/errors@1.1.2-next.2
+  - @backstage/integration@1.3.2-next.2
+  - @backstage/types@1.0.0
+  - @backstage/plugin-catalog-common@1.0.7-next.2
+  - @backstage/plugin-permission-common@0.6.5-next.2
+  - @backstage/plugin-scaffolder-common@1.2.1-next.2
+  - @backstage/plugin-search-common@1.1.0-next.2
+
 ## 1.4.1-next.1
 
 ### Patch Changes
