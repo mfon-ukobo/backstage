@@ -15,8 +15,8 @@
     "role": "node-library"
   },
   "scripts": {
-    "start": "backstage-cli package start",
-    "build": "backstage-cli package build --experimental-type-build",
+    "start": "node init && backstage-cli package start",
+    "build": "node init && backstage-cli package build --experimental-type-build",
     "lint": "backstage-cli package lint",
     "test": "backstage-cli package test",
     "clean": "backstage-cli package clean",

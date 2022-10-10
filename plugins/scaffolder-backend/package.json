@@ -24,14 +24,14 @@
     "backstage"
   ],
   "scripts": {
-    "start": "backstage-cli package start",
-    "build": "backstage-cli package build --experimental-type-build",
+    "start": "node init && backstage-cli package start",
+    "build": "node init && backstage-cli package build --experimental-type-build",
     "lint": "backstage-cli package lint",
     "test": "backstage-cli package test",
     "prepack": "backstage-cli package prepack",
     "postpack": "backstage-cli package postpack",
     "clean": "backstage-cli package clean",
-    "build:assets": "node scripts/build-nunjucks.js"
+    "build:assets": "node init && node scripts/build-nunjucks.js"
   },
   "dependencies": {
     "@backstage/backend-common": "workspace:^",
