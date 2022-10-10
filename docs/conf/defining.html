@@ -74,6 +74,15 @@ package has at least one dependency in the <code>@backstage</code> namespace or 
 <code>&quot;configSchema&quot;</code> field in <code>package.json</code>. The field can either contain an
 inlined JSON schema, or a relative path to a schema file. Supported schema file
 formats are <code>.json</code> or <code>.d.ts</code>.</p>
+<pre><code class="hljs css language-jsonc title=&quot;package.json&quot;">{
+  <span class="hljs-comment">// ...</span>
+  <span class="hljs-attr">"files"</span>: [
+    <span class="hljs-comment">// ...</span>
+    <span class="hljs-string">"config.d.ts"</span>
+  ],
+  <span class="hljs-attr">"configSchema"</span>: <span class="hljs-string">"config.d.ts"</span>
+}
+</code></pre>
 <blockquote>
 <p>When defining a schema file, be sure to include the file in your
 <code>package.json</code> &gt; <code>&quot;files&quot;</code> field as well!</p>
