@@ -30,10 +30,10 @@
     "dist/**/*.js"
   ],
   "scripts": {
-    "build": "backstage-cli package build",
+    "build": "node init && backstage-cli package build",
     "clean": "backstage-cli package clean",
     "lint": "backstage-cli package lint",
-    "start": "nodemon --",
+    "start": "node init && nodemon --",
     "test": "backstage-cli package test"
   },
   "nodemonConfig": {

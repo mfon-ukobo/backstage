@@ -6,7 +6,6 @@
 *.iml
 
 # Visual Studio Code
-.vscode/
 .vsls.json
 
 # Logs
@@ -100,8 +99,6 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
-.env.test
 .envrc
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -191,3 +188,4 @@ dist-storybook/
 # Personal allow patterns etc
 .claude/settings.local.json
 .claude/worktrees/
+config.bat

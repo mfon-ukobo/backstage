@@ -29,7 +29,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "backstage-cli package build",
+    "build": "node init && backstage-cli package build",
     "clean": "backstage-cli package clean",
     "generate-models": "scripts/generate-models.sh",
     "lint": "backstage-cli package lint",

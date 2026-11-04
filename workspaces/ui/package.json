@@ -6,7 +6,7 @@
     "node": "^24.15.0 || ^26.13.0"
   },
   "scripts": {
-    "build:all": "backstage-cli repo build --all",
+    "build:all": "node init && backstage-cli repo build --all",
     "tsc": "tsc",
     "tsc:full": "tsc --skipLibCheck false --incremental false",
     "clean": "backstage-cli repo clean",

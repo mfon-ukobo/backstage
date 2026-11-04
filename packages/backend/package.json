@@ -21,12 +21,12 @@
     "dist"
   ],
   "scripts": {
-    "build": "backstage-cli package build",
-    "build-image": "docker build ../.. -f Dockerfile --tag example-backend",
+    "build": "node init && backstage-cli package build",
+    "build-image": "node init && docker build ../.. -f Dockerfile --tag example-backend",
     "clean": "backstage-cli package clean",
     "lint": "backstage-cli package lint",
-    "start": "backstage-cli package start --require ./src/instrumentation.js",
-    "start:prometheus": "docker run --mount type=bind,source=./prometheus.yml,destination=/etc/prometheus/prometheus.yml --publish published=9090,target=9090,protocol=tcp prom/prometheus",
+    "start": "node init && backstage-cli package start --require ./src/instrumentation.js",
+    "start:prometheus": "node init && docker run --mount type=bind,source=./prometheus.yml,destination=/etc/prometheus/prometheus.yml --publish published=9090,target=9090,protocol=tcp prom/prometheus",
     "test": "backstage-cli package test"
   },
   "dependencies": {

@@ -27,12 +27,12 @@
     "dist"
   ],
   "scripts": {
-    "build": "backstage-cli package build",
+    "build": "node init && backstage-cli package build",
     "clean": "backstage-cli package clean",
     "lint": "backstage-cli package lint",
     "prepack": "backstage-cli package prepack",
     "postpack": "backstage-cli package postpack",
-    "start": "backstage-cli package start",
+    "start": "node init && backstage-cli package start",
     "test": "backstage-cli package test"
   },
   "devDependencies": {
