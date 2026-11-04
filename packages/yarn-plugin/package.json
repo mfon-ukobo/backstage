@@ -18,10 +18,10 @@
   "license": "Apache-2.0",
   "main": "./src/index.ts",
   "scripts": {
-    "build": "builder build plugin",
+    "build": "node init && builder build plugin",
     "clean": "backstage-cli package clean",
     "lint": "backstage-cli package lint",
-    "start": "nodemon --",
+    "start": "node init && nodemon --",
     "test": "backstage-cli package test"
   },
   "nodemonConfig": {

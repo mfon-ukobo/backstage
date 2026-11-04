@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "node init && next build",
     "lint": "eslint .",
-    "start": "next dev",
+    "start": "node init && next dev",
     "sync:changelog": "node scripts/sync-changelog.mjs",
     "sync:changelog:dry-run": "node scripts/sync-changelog.mjs --dry-run",
     "sync:changelog:force": "node scripts/sync-changelog.mjs --force"

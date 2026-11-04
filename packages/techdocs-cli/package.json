@@ -29,11 +29,11 @@
     "dist"
   ],
   "scripts": {
-    "build": "backstage-cli package build",
+    "build": "node init && backstage-cli package build",
     "clean": "backstage-cli package clean",
     "lint": "backstage-cli package lint",
     "prepack": "./scripts/prepack.sh",
-    "start": "nodemon --",
+    "start": "node init && nodemon --",
     "test": "backstage-cli package test",
     "test:e2e": "backstage-cli package test --config cli-e2e-test.config.js",
     "test:e2e:ci": "backstage-cli package test --config cli-e2e-test.config.js --watchAll=false --ci"
