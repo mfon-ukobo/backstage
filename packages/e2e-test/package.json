@@ -18,11 +18,11 @@
   "license": "Apache-2.0",
   "main": "src/index.ts",
   "scripts": {
-    "start": "node init && yarn nodemon --",
+    "start": "yarn nodemon --",
     "lint": "backstage-cli package lint",
     "test": "backstage-cli package test",
     "test:e2e": "yarn start",
-    "build": "node init && backstage-cli package build",
+    "build": "backstage-cli package build",
     "clean": "backstage-cli package clean"
   },
   "bin": "bin/e2e-test",
