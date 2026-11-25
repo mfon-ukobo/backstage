@@ -149,4 +149,3 @@ tsconfig.tmp.json
 
 # vscode database functionality support files
 *.session.sql
-config.bat

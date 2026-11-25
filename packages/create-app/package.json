@@ -23,13 +23,13 @@
     "backstage-create-app": "bin/backstage-create-app"
   },
   "scripts": {
-    "build": "node init && backstage-cli package build",
+    "build": "backstage-cli package build",
     "lint": "backstage-cli package lint",
     "test": "backstage-cli package test",
     "clean": "backstage-cli package clean",
     "prepack": "node scripts/prepack.js",
     "postpack": "node scripts/postpack.js",
-    "start": "node init && yarn nodemon --"
+    "start": "yarn nodemon --"
   },
   "dependencies": {
     "@backstage/cli-common": "workspace:^",
