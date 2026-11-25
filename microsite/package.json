@@ -4,7 +4,7 @@
   "private": true,
   "license": "Apache-2.0",
   "scripts": {
-    "build": "node init && docusaurus build",
+    "build": "docusaurus build",
     "clear": "docusaurus clear",
     "deploy": "docusaurus deploy",
     "docusaurus": "docusaurus",
@@ -14,7 +14,7 @@
     "publish-gh-pages": "docusaurus-publish",
     "rename-version": "docusaurus-rename-version",
     "serve": "docusaurus serve",
-    "start": "node init && docusaurus start",
+    "start": "docusaurus start",
     "swizzle": "docusaurus swizzle",
     "typecheck": "tsc",
     "verify:sidebars": "node ./scripts/verify-sidebars",
